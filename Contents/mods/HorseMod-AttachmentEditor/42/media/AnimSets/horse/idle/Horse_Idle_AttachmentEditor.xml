@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>Horse_Idle_AttachmentEditor</m_Name>
+	<m_AnimName>Horse_Idle</m_AnimName>
+	<m_BlendTime>0.40</m_BlendTime>
+    <m_Transitions>
+        <m_Target>Horse_idleSit</m_Target>
+        <m_AnimName>Horse_Idle_StandingToLying</m_AnimName>
+    </m_Transitions>
+</animNode>
