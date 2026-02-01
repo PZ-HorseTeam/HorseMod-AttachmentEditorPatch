@@ -2,7 +2,7 @@
 This patch provides the necessary modifications to enable the [Attachment Editor debug tool](https://pzwiki.net/wiki/Attachment_Editor) for the horses. The reason this is needed is because custom [AnimSets](https://pzwiki.net/wiki/AnimSet) are not possible in the game, due to an [ActionGroup](https://pzwiki.net/wiki/ActionGroup) being needed, which can't be loaded in from mods by the game.
 
 This patch requires you to run the `setup.py` script, which will do the following:
-1. Copy the latest AnimSets from the Horse Mod into a new AnimSet named `horse`. This is to make sure you have the latest horse animations, the mod comes with a copy but might be outdated.
+1. Copy the latest AnimSets from the Horse Mod into a new AnimSet named `horse`. On top of that, an idle AnimNode was specifically created and only available in this mod to act as the idle animation in the editor.
 2. It will copy the `buck` vanilla ActionGroup into a new ActionGroup named `horse`, the one used by the horse animations.
 3. It will modify the `animset` entry in the animal definition to use the new `horse` ActionGroup instead of the `buck` one in the Horse Mod.
 
