@@ -4,7 +4,7 @@ This patch provides the necessary modifications to enable the [Attachment Editor
 This patch requires you to run the `setup.py` script, which will do the following:
 1. Copy the latest AnimSets from the Horse Mod into a new AnimSet named `horse`. This is to make sure you have the latest horse animations, the mod comes with a copy but might be outdated.
 2. It will copy the `buck` vanilla ActionGroup into a new ActionGroup named `horse`, the one used by the horse animations.
-3. It will modify the `horse` AnimSet to use the new `horse` ActionGroup instead of the `buck` one in the Horse Mod.
+3. It will modify the `animset` entry in the animal definition to use the new `horse` ActionGroup instead of the `buck` one in the Horse Mod.
 
 What this achieves is that instead of using the `buck` ActionGroup for the horse animations, it will now use the newly manually installed `horse` ActionGroup, which can be recognized by the Attachment Editor tool.
 
