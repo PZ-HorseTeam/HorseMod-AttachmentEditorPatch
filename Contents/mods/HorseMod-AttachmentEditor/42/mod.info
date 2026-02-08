@@ -1,4 +1,4 @@
 name=Horse Mod - Attachment Editor Patch
-id=HorseMod_AttachmentEditorPatch
+id=Horse_AttachmentEditorPatch
 require=\Horse
 loadafter=\Horse
