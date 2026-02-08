@@ -8,7 +8,7 @@ This patch requires you to run the `setup.py` script, which will do the followin
 
 What this achieves is that instead of using the `buck` ActionGroup for the horse animations, it will now use the newly manually installed `horse` ActionGroup, which can be recognized by the Attachment Editor tool.
 
-See the [documentation](https://pz-horseteam.github.io/horsemod) on how to add attachments to horses.
+See the [documentation](https://pz-horseteam.github.io/HorseMod) on how to add attachments to horses.
 
 ## Installation
 1. Make sure you have Python and Git installed on your system.
